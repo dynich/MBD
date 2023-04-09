@@ -1,0 +1,32 @@
+.gridproduk{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+    width: 250px;
+    box-shadow: 0 4px 15px 3px rgba(0, 0, 0, 0.137);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.imagectn{
+    overflow: hidden;
+    width: 100%;
+    background-color: aqua;
+    height: 220px;
+}
+.cardimg{
+    width: 100%;
+    object-fit: cover;
+}
+.productname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}

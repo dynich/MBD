@@ -1,0 +1,97 @@
+.wrapper{
+    min-height: 600px;
+}
+.row{
+
+}
+.input_group{
+    
+}
+.heroctn{
+    display: flex;
+    overflow: hidden;
+    height: 800px;
+}
+.banner{
+    opacity: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.imagectn{
+    background-color: black;
+    position: absolute;z-index: -20;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+}
+.konten{
+    display: flex;
+    justify-content: center;
+    position: absolute;z-index: -10;
+    max-width: 100%;
+    height: 600px;
+    padding: 0 70px;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.quotes1{
+    font-size: 15px;
+    color: aqua;
+}
+.quotes2{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+}
+.isian1{
+    font-size: 20px;
+    color: white;
+}
+.tombol{
+    padding: 12px;
+    font-size: 20px;
+    width: 160px;
+    border-radius: 60px;
+    border-style: none;
+    background-color: #40bfff;
+    color: white;
+    transition: 200ms;
+}
+.tombol a:hover{
+    background-color: #000000;
+    transition: 200ms;
+}
+.gridproduk{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+    width: 250px;
+    box-shadow: 0 4px 15px 3px rgba(0, 0, 0, 0.137);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.imagectn{
+    overflow: hidden;
+    width: 100%;
+    background-color: aqua;
+    height: 220px;
+}
+.cardimg{
+    width: 100%;
+    object-fit: cover;
+}
+.productname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
