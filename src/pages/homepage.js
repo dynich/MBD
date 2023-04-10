@@ -14,28 +14,7 @@ class Homepage extends Component{
                                 <button>Cari</button>
                             </div>
                         </div>
-                    <div className={Styles.row}>
-                        
-                        </div> 
-                        <div className={Styles.gridproduk}>
-                            <div className={Styles.imagectn}>
-                                <img className={Styles.cardimg} src={Parfumcard} size={160}>
-                                </img>
-                            </div>
-                            <div className={Styles.productname}>
-                                Acqua di Gio
-                            </div>
-                            <div className={Styles.price}>
-                                <p>
-                                    IDR
-                                </p>
-                                <p>
-                                    15000
-                                </p>
-                            </div>
-                            </div>
-                    </div>
-                    
+                    </div>  
                 </div>
             </React.Fragment>
             
